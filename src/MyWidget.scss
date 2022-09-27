@@ -1,0 +1,22 @@
+:host {
+  /* reset main document font family and document font sizes */
+  /* font-family: initial;
+  font-size: initial;
+  color: initial; */
+  all: initial;
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background-color: rgb(248, 255, 187);
+  border: solid 1px red;
+}
+
+$rot: rgb(0, 72, 255);
+
+.title {
+  color: darken($rot, 10%);
+}
